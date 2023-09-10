@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "guitar"
+version = "0.1.0"
+description = ""
+authors = ["codinEric"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyaudio = "^0.2.13"
+numpy = "^1.25.2"
+pygame = "^2.5.1"
+aubio = "^0.4.9"
+matplotlib = "^3.7.2"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
