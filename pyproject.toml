@@ -12,10 +12,10 @@ numpy = "^1.25.2"
 pygame = "^2.5.1"
 aubio = "^0.4.9"
 matplotlib = "^3.7.2"
-
-
-[tool.poetry.group.dev.dependencies]
+pandas = "^2.1.0"
 jupyter = "^1.0.0"
+ipykernel = "^6.25.2"
+
 
 [build-system]
 requires = ["poetry-core"]
